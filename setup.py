@@ -1,16 +1,16 @@
 from setuptools import setup
 
 setup(
-    name = 'remuxer',
+    name = 'climuxer',
     version = '0.1.0',
-    py_modules = ['remuxer'],
+    py_modules = ['climuxer'],
     install_requires = [
         'click',
         'pymediainfo',
     ],
     entry_points = {
         'console_scripts': [
-            'remuxer = remuxer:main',
+            'climuxer = climuxer:main',
         ]
     },
 )
